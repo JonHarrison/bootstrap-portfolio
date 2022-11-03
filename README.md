@@ -36,6 +36,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * Wrote JS for updating copyright for current year
 * Wrote JS for appending language icons as CSS could only add a single icon in ::after
 * Good time management is essential
+* To use bootstrap you need to be able to count to 12 ;)
 
 ## Wireframe image
 
@@ -50,6 +51,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 - HTML
 - CSS
 - Javascript
+- Bootstrap 4
 
 ## Links
 
