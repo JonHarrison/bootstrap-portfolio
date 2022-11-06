@@ -31,6 +31,9 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 ## Challenges / Things I learnt
 
+* How to redesign an existing web page using Bootstrap classes
+* How to customise Bootstrap classes to change the look and feel of the page
+
 * How to layout a responsive web page using grid and flexgrid
 * How to alter grid layouts for responsive web design
 * Wrote JS for updating copyright for current year
