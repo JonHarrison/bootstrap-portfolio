@@ -40,12 +40,18 @@
   justify-content: space-between; */
 }
 
+/* right align text in sidebar */
+.sidebar-text {
+  text-align: right;
+}
+
 /* provides a thicker boarder than the Bootstrap default */
 .border-width-4 {
   border-width: 4px !important;
 }
 
-.card {
+/* set minimum card height for consistent cards with small screens */
+.badge {
   min-height: 150px;
 }
 
