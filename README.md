@@ -1,8 +1,8 @@
-# Unit 2 Challenge: Portfolio
+# Unit 3 Challenge: Bootstrap Portfolio
 
 ## Title
 
-A website which showcases my portfolio
+A website which showcases my portfolio, developed using the Bootstrap 4 framework
 
 ## User Story
 
@@ -12,34 +12,89 @@ SO THAT potential clients can see examples of my work which will help win me wor
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
+2. Clone this repository to your computer.
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+      - Create a folder structure.
 
-* When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
-* When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
-* When viewing the section about your work then the section contains titled images of your applications
-* When presented with the your first application then that application's image should be larger in size than the others
-* When images of the applications are clicked then the user is taken to that deployed application
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
+     - Create a `index.html`.
+
+     - Create a `css` folder.
+
+       - Inside create a `style.css` file.
+
+   - Create an `images` folder.
+
+       - Place all your images in this folder.
+
+4. Using Bootstrap, recreate your portfolio site with the following items:
+
+   The website should include the following bootstrap components:
+
+    - A Navigation bar
+    
+    - A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+
+      - Include links that are applicable to your portfolio.
+  
+        - Links should navigate to the appropriate sections 
+
+    - A hero section
+
+        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+
+    - A work section
+
+      - A section displaying your work in grid. 
+
+        - If you need to use placeholder image use: https://placehold.co/ 
+
+      - Use bootstrap cards for each project.
+
+        - The description should give a brief overview of the work.
+
+      - Each project will eventually link to your class project work!
+
+    - A skills section
+
+      - List out the skills you expect to learn from the bootcamp.
+
+    - An about / contact section.
+
+      - An "About Me" section in the same row.
+    
+    - A footer section.
+
+      - All hyperlinks should have a hover effect.
+
+      - All buttons should display a box shadow upon hover.
+
+5. Your Bootstrap solution should minimize use of media queries.
+
+6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Tasks Completed
 
-* Created portfolio page
-* Used grid and flexbox
-* Used css variables to make it easier to alter the page
-* Used hover over effects
-* Used media queries to alter the layout for mobile / tablet devices with smaller screens
+* Re-created portfolio page using Bootstrap
+* Used Navbar with special menu for mobile
+* Added drop-down option for projects
+* Used container and container-fluid
+* Used hover over shadowbox effects
+* Used CSS to change the standard Bootstrap look and feel
+* Minimised use of media queries
 
 ## Challenges / Things I learnt
 
 * How to redesign an existing web page using Bootstrap classes
 * How to customise Bootstrap classes to change the look and feel of the page
+* How to make an anchor link span a Bootstrap card
+* Used Fontawesome for standard icons
 
 * How to layout a responsive web page using grid and flexgrid
 * How to alter grid layouts for responsive web design
 * Wrote JS for updating copyright for current year
 * Wrote JS for appending language icons as CSS could only add a single icon in ::after
 * Good time management is essential
-* To use bootstrap you need to be able to count to 12 ;)
 
 ## Wireframe image
 
@@ -55,6 +110,8 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 - CSS
 - Javascript
 - Bootstrap 4
+- Fontawesome
+- Google fonts
 
 ## Links
 
