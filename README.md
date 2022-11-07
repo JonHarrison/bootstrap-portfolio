@@ -74,13 +74,9 @@ SO THAT potential clients can see examples of my work which will help win me wor
 * Wrote JS for updating copyright for current year
 * Wrote JS for appending language icons as CSS could only add a single icon in ::after
 
-## Wireframe image
-
-![Wireframe image](https://user-images.githubusercontent.com/1043077/199357053-4473cef4-3365-4969-b341-0cf9fd90a798.png)
-
 ## Website image
 
-![Website image](https://user-images.githubusercontent.com/1043077/199357546-7fb9e37b-b51e-4bd5-b446-2efbd3a1d832.png)
+![Website image](https://user-images.githubusercontent.com/1043077/200364647-1cda9b75-dd23-4ef9-8f71-21cf5c62dbee.png)
 
 ## Technologies Used
 
