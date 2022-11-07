@@ -76,7 +76,7 @@ SO THAT potential clients can see examples of my work which will help win me wor
 
 ## Website image
 
-![Website image](https://user-images.githubusercontent.com/1043077/200364647-1cda9b75-dd23-4ef9-8f71-21cf5c62dbee.png)
+![Website image](https://user-images.githubusercontent.com/1043077/200367785-f0c46991-6ac2-4222-97bb-2a2580bfb92b.png)
 
 ## Technologies Used
 
