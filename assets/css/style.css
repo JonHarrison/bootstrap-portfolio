@@ -52,12 +52,7 @@
   border-width: 4px !important;
 }
 
-/* set minimum card height for consistent cards with small screens */
-.badge {
-  min-height: 150px;
-}
-
-/* alter card size and image scaling */
+/* alter card size and image scaling for consistent look across cards */
 .card-img, .card-img-top {
   width: 100%;
   height: 20vw;
@@ -101,10 +96,6 @@
 
 /* Tablets */
 @media only screen and (max-width: 768px) {
-  /* remove background image to reduce mobile load time */
-  .jumbotron {
-    background-image: none !important;
-  }
   /* center the left panel (Work/Skills/About) and remove the right border */
   .sidebar {
     width: 100%;
@@ -120,4 +111,16 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* remove background image to reduce mobile load time */
+  .jumbotron {
+    background-image: none !important;
+  }
+  /* set minimum card height for consistent cards with small screens */
+  .card {
+    width: 100%;
+    min-height: 150px;
+  }
+  .card-img {
+    height: 100%;
+  }
 }
