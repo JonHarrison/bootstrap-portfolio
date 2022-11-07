@@ -12,6 +12,7 @@
   --portfolioCardBackground: rgba(255, 255, 255, 0.7);
   --portfolioCardBadgeForeground: #000;
   --portfolioCardBadgeBackground: rgba(255, 255, 255, 0.7);
+  --iconTextForeground: #3e4141;
 }
 
 /* override standard navbar to fix at top of window and give transparent background */
@@ -83,9 +84,10 @@
   margin-bottom: 10px;
 }
 
-.icons-text {
+.icon-text {
   text-transform: uppercase;
-  color: #3e4141;
+  color: var(--iconTextForeground);
+  /* alter text as standard p is too large */
   font-size: 11px;
   letter-spacing: 0.2em;
 }
