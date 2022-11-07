@@ -74,15 +74,12 @@
   position: relative;
 }
 
+/* set size and spacing for skills icons */
 .icon {
   width: 65px;
   height: 65px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.footer-link:hover {
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icons-text {
@@ -92,9 +89,32 @@
   letter-spacing: 0.2em;
 }
 
-@media only screen and (max-width: 600px) {
+/* add hover over shadow box to footer links */
+.footer-link:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* media queries */
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
   /* remove background image to reduce mobile load time */
   .jumbotron {
-    background-image: none;
+    background-image: none !important;
   }
+  /* center the left panel (Work/Skills/About) and remove the right border */
+  .sidebar {
+    width: 100%;
+    border-right-style: none !important;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+  }
+  /* center sidebar text in this layout */
+  .sidebar-text {
+    text-align: center;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 }
